@@ -153,9 +153,10 @@ a {
 }
 
 .templates-03 {
-    margin-top: 24px;
+    padding-top: 24px;
     display: flex;
     gap: 80px;
+    border-top: 1px solid #EAEAEA;
 }
 
 .templates-03 img {
@@ -389,7 +390,7 @@ a {
     width: 149.33px;
 }
 
-.footer-item h5 {
+.footer-items ul li:first-child {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -397,7 +398,7 @@ a {
     color: #212121;
 }
 
-.footer-item p {
+.footer-item li {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
